@@ -1,24 +1,24 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
     return (
-        <nav> 
-            <ul>
-                <li>
-                    <NavLink exact to='/'>About Me</NavLink>
-                </li>
-                <li>
-                    <NavLink exact to='/portfolio'>Portfolio</NavLink>
-                </li>
-                <li>
-                    <NavLink exact to='/contact'>Contact</NavLink>
-                </li>
-                <li>
-                    <NavLink exact to='/resume'>Resume</NavLink>
-                </li>
-            </ul>
-        </nav>
+        <nav>
+                <ul>
+                    <li>
+                        <Link to='/AboutMe'>about me</Link>
+                    </li>
+                    <li>
+                        <Link to='/Portfolio'>portfolio</Link>
+                    </li>
+                    <li>
+                        <Link to='/assets/smcgarr_resume_1222-06.jpg'>resume</Link>
+                    </li>
+                    <li>
+                        <Link to='/Contact'>contact</Link>
+                    </li>
+                </ul>
+            </nav>
     );
 };
 

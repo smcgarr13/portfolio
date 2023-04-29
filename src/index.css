@@ -110,7 +110,7 @@
   display: flex;
   justify-content: flex-end;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./pages/assets/smcgarr_pic.png");
+    url("./assets/smcgarr_pic.png");
   /* Photo Credit to Betwixt Studios */
   min-height: 700px;
   background-position: center;
@@ -194,6 +194,12 @@ p {
   padding: 0;
 }
 
+/* Projects */
+.project-image {
+  max-width: 100%;  /* Set the maximum width to 100% of the container */
+  height: auto;     /* Keep the aspect ratio of the image */
+}
+
 /* work examples – all projects */
 .page-section {
   font-family: "Poppins", "Questrial", "Quicksand";
@@ -260,7 +266,7 @@ span {
   flex-basis: 100%;
   flex-shrink: 0;
   transition: all 2s ease-in-out;
-  background-image: url("./pages/assets/JoyRide.png");
+  background-image: url("./assets/JoyRide.png");
 }
 
 .project-2 {
@@ -268,7 +274,7 @@ span {
   text-decoration: none;
   min-height: 200px;
   flex-basis: 48.75%;
-  background-image: url("./pages/assets/Randys_Booth_Co_Login.png");
+  background-image: url("./assets/Randys_Booth_Co_Login.png");
 }
 
 .project-3 {
@@ -276,7 +282,7 @@ span {
   min-height: 200px;
   flex-basis: 48.75%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./pages/assets/coming-soon-handwritten.png");
+    url("./assets/coming-soon-handwritten.png");
 }
 
 .project-4 {
@@ -284,7 +290,7 @@ span {
   min-height: 200px;
   flex-basis: 48.75%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./pages/assets/coming-soon-handwritten.png");
+    url("./assets/coming-soon-handwritten.png");
 }
 
 .project-5 {
@@ -292,7 +298,7 @@ span {
   min-height: 200px;
   flex-basis: 48.75%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./pages/assets/coming-soon-handwritten.png");
+    url("./assets/coming-soon-handwritten.png");
 }
 
 /* responsive features for work examples section */
@@ -311,62 +317,36 @@ span {
   }
 }
 
-/* contact me */
-.contact-info {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.contact-info ul li {
-  list-style-type: none;
-  display: inline;
-}
-
-.contact-info ul li a {
-  display: inline-block;
-  border-bottom: 3px solid rgb(57, 57, 57);
-  margin-right: 25px;
-  font-family: "Poppins", "Questrial", "Quicksand";
-  font-size: 1.75vw;
-  font-style: normal;
-  text-decoration: none;
-  color: rgb(57, 57, 57);
-  transition: all 2s ease-in-out;
-  padding: 8px 16px;
-}
-
-/* responsive features for contact info */
-@media screen and (max-width: 980px) {
-  .contact-info ul li a {
-    display: flex;
-    justify-content: space-around;
-    margin-right: 25px;
-    font-family: "Poppins", "Questrial", "Quicksand";
-    font-size: 1.5vw;
-    font-style: normal;
-    text-decoration: none;
-    color: rgb(57, 57, 57);
-    transition: all 2s ease-in-out;
-    padding: 16px 0;
-  }
-}
-
-.contact-info a:hover {
-  background-size: 75% 75%;
-  color: rgb(174, 220, 253);
-}
-
+/* Footer */
 .Footer {
   margin-top: auto;
-  background-color: rgb(174, 220, 253);
-  color: rgb(57, 57, 57);
   height: 50px;
   justify-content: center;
   font-size: 1.5vw;
-  padding: 25px 0;
+  padding: 14px 0;
+  background-color: rgb(57, 57, 57);
+  font-size: 25px;
 }
 
-li {
+.Footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.Footer li {
   list-style: none;
+  margin-right: 10px;
+}
+
+.Footer a {
+  text-decoration: none;
+  color:rgb(174, 220, 253)
+}
+
+.Footer a:hover {
+  background-size: 75% 75%;
+  color: darkorchid;
 }

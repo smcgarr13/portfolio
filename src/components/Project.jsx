@@ -9,7 +9,7 @@ const Project = ({ title, description, href, imgSrc, altText }) => {
                     <h4>{ title }</h4>
                     <span>{ description }</span>
                 </div>
-                <img src={ imgSrc } alt= {altText } />
+                <img src={ imgSrc } alt= {altText } className="project-image" />
             </a>
         </div>
     );
