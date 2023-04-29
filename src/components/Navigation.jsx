@@ -3,27 +3,19 @@ import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
     return (
-        <nav>
+        <nav> 
             <ul>
                 <li>
-                    <NavLink exact to='/' activeClassName='active'>
-                        About Me
-                    </NavLink>
+                    <NavLink exact to='/'>About Me</NavLink>
                 </li>
                 <li>
-                    <NavLink exact to='/portfolio' activeClassName='active'>
-                        Portfolio
-                    </NavLink>
+                    <NavLink exact to='/portfolio'>Portfolio</NavLink>
                 </li>
                 <li>
-                    <NavLink exact to='/contact' activeClassName='active'>
-                        Contact
-                    </NavLink>
+                    <NavLink exact to='/contact'>Contact</NavLink>
                 </li>
                 <li>
-                    <NavLink exact to='/resume' activeClassName='active'>
-                        Resume
-                    </NavLink>
+                    <NavLink exact to='/resume'>Resume</NavLink>
                 </li>
             </ul>
         </nav>

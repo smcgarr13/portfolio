@@ -366,3 +366,7 @@ span {
   font-size: 1.5vw;
   padding: 25px 0;
 }
+
+li {
+  list-style: none;
+}
