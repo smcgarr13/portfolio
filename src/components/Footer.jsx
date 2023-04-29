@@ -1,19 +1,15 @@
 import React from 'react';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
     return (
         <footer>
-            <section className='page-section' id='contact-me'>
-                <h3>contact me</h3>
+            <section className='Footer'>
                 <div>
-                    <address>
-                        <ul>
-                            <li><a href='mobile: +11234567890'>123.456.7890</a></li>
-                            <li><a href='mailto: OhHiThere@TBD.com'>OhHiThere@TBD.com</a></li>
-                            <li><a href='https://github.com/smcgarr13'>GitHub</a></li>
-                            <li><a href='https://www.linkedin.com/in/shannon-mcgarr-54b147b/'>LinkedIn</a> </li>
-                        </ul>
-                    </address>
+                    <ul>
+                        <li><a href='https://github.com/smcgarr13'><FaGithub /></a></li>
+                        <li><a href='https://www.linkedin.com/in/shannon-mcgarr-54b147b/'><FaLinkedin /></a></li>
+                    </ul>
                 </div>
             </section>
         </footer>
