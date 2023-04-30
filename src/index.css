@@ -67,6 +67,12 @@
   color: rgb(57, 57, 57);
 }
 
+.Header nav a.active {
+  background-color: rgb(174, 220, 253);
+  background-size: 75% 75%;
+  color: rgb(57, 57, 57);
+}
+
 /* responsive features for header and nav */
 @media screen and (max-width: 980px) {
   .Header {
@@ -116,7 +122,7 @@
 
 .HeroSmcgarr h2 {
   font-family: "Josefin", "Koulen", "lexend";
-  text-align: start;
+  text-align: flex-start;
   margin: 0;
   font-size: 2.5rem;
   background-color: rgb(174, 220, 253);
@@ -154,7 +160,7 @@
 
 .AboutMe h3 {
   font-family: "Josefin", "Koulen", "lexend";
-  text-align: start;
+  text-align: flex-start;
   margin: 0;
   font-size: 1.75rem;
   color: rgb(57, 57, 57);
@@ -163,6 +169,7 @@
 .AboutMe p {
   margin: 20px 0 0 0;
   padding: 0;
+  color: rgb(57, 57, 57);
 }
 
 /* Projects */
@@ -177,6 +184,13 @@
   line-height: 1;
   margin: 0;
   padding: 20px;
+}
+
+h3 {
+  font-family: "Josefin", "Koulen", "lexend";
+  font-size: 24px;
+  color: rgb(57, 57, 57);
+  text-decoration: none;
 }
 
 h4 {
@@ -287,6 +301,62 @@ span {
     height: 100vh/4;
   }
 }
+/* Resume */
+.Resume {
+  font-family: "Josefin", "Koulen", "lexend";
+  font-size: 24px;
+  color: rgb(57, 57, 57);
+}
+
+.Resume img {
+  width: 100%;
+}
+
+/* Contact */
+.Contact {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  margin-left: 10px;
+  font-family: "Josefin", "Koulen", "lexend";
+  align-items: center;
+  color: rgb(57, 57, 57);
+}
+
+.Contact h3 {
+  display: flex;
+  font-family: "Josefin", "Koulen", "lexend";
+  font-size: 24px;
+}
+
+.Contact label, input, textarea {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input, textarea {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Poppins", "Questrial", "Quicksand";
+}
+
+.Contact span {
+  align-items: center;
+  font-family: "Poppins", "Questrial", "Quicksand";
+}
+
+.Contact button {
+  background-color: rgb(174, 220, 253);
+  color: rgb(57, 57, 57);
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 15px;
+  align-items: center;
+}
 
 /* Footer */
 .Footer {
@@ -309,7 +379,7 @@ span {
 
 .Footer li {
   list-style: none;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .Footer a {
