@@ -101,12 +101,7 @@
 }
 
 /* hero section info */
-/* .Hero {
-  display: flex;
-  justify-content: flex-end;
-} */
-
-.hero-smcgarr {
+.HeroSmcgarr {
   display: flex;
   justify-content: flex-end;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -119,69 +114,45 @@
   position: relative;
 }
 
-.hero-text {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-self: end;
-  background-color: rgb(174, 220, 253);
-  color: rgb(57, 57, 57);
-  padding: 13px 8px 13px 8px;
-  max-height: 65px;
-  margin-bottom: 26px;
-  font-family: "Josefin", "Koulen", "lexend";
-  font-size: 2.3vw;
-  line-height: 0.8;
-}
-
-h2 {
+.HeroSmcgarr h2 {
   font-family: "Josefin", "Koulen", "lexend";
   text-align: start;
   margin: 0;
   font-size: 2.5rem;
+  background-color: rgb(174, 220, 253);
   color: rgb(57, 57, 57);
+  padding: 13px 8px 13px 8px;
+  max-height: 65px;
+  line-height: 0.8;
+  /* margin-bottom: 26px; */
 }
 
 /* responsive features for "hero" section*/
 @media screen and (max-width: 980px) {
-  .hero-smcgarr {
+  .HeroSmcgarr {
     min-height: 500px;
     flex-shrink: inherit;
-  }
-
-  .hero-text {
-    justify-content: center;
-    text-align: center;
-    font-size: 5vw;
-    margin: 0;
-    width: 100%;
-    max-height: 80px;
-    transition: all 2s ease-in-out;
-    text-decoration: none;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .hero-smcgarr {
+  .HeroSmcgarr {
     min-height: 400px;
     flex-shrink: inherit;
   }
-}
-
-main {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-/* page wrapper */
-.wrapper {
-  margin-right: auto;
-  margin-left: auto;
-  width: 80%;
+  .HeroSmcgarr h2 {
+    width: 100vw;
+    text-align: center;
+  }
 }
 
 /* about me section */
-h3 {
+.AboutMe {
+  background-color: white;
+  min-height: 100%;
+}
+
+.AboutMe h3 {
   font-family: "Josefin", "Koulen", "lexend";
   text-align: start;
   margin: 0;
@@ -189,7 +160,7 @@ h3 {
   color: rgb(57, 57, 57);
 }
 
-p {
+.AboutMe p {
   margin: 20px 0 0 0;
   padding: 0;
 }
@@ -350,3 +321,20 @@ span {
   background-size: 75% 75%;
   color: darkorchid;
 }
+
+
+
+
+
+
+/* main {
+  margin-top: 30px;
+  margin-bottom: 30px;
+} */
+
+/* page wrapper */
+/* .wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+} */
