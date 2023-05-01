@@ -54,5 +54,7 @@ Please email me directly if you have any additional questions.
 Email: unicorn@magical.com
 
 ## Link to Deployed Application:
+https://smcgarr13.github.io/smcgarr-portfolio/
 
 ## GitHub Repo:
+https://github.com/smcgarr13/smcgarr-portfolio
