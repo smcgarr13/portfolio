@@ -15,6 +15,7 @@ const Portfolio = () => {
                     href={ project.href }
                     imgSrc={ project.imgSrc }
                     altText={ project.altText }
+                    repo={ project.repo }
                     />
                 ))}
             </div>
