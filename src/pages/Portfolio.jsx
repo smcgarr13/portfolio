@@ -5,7 +5,7 @@ import projects from '../data/projectData';
 const Portfolio = () => {
     return (
        <section className='page-selection' id='work'>
-            <h3>work</h3>
+            <h3>my work</h3>
             <div className='flexbox-container'>
                 {projects.map((project) => (
                     <Project
