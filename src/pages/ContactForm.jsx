@@ -14,6 +14,19 @@ const handleChange = (e) => {
     setFormData({ ...formData, [name]: value });
 };
 
+const handleBlur = (e) => {
+    const { name } = e.target;
+    const validationErrors = { ...errors };
+
+    if (!formData[name]) {
+       validationErrors[name] = `${name} is required`;
+    } else {
+        delete validationErrors[name];
+    }
+
+    setErrors(validationErrors);
+};
+
     const validateEmail = (email) => {
         const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return re.test(String(email).toLowerCase());
@@ -53,8 +66,9 @@ return (
                 type='text'
                 id='name'
                 name='name'
-                value={formData.name}
-                onChange={handleChange}
+                value={ formData.name }
+                onChange={ handleChange }
+                onBlur={ handleBlur }
             />
             {errors.name && <span>{errors.name}</span>}
         </div>
@@ -66,6 +80,7 @@ return (
                 name='email'
                 value={formData.email}
                 onChange={handleChange}
+                onBlur={ handleBlur }
             />
             {errors.email && <span>{errors.email}</span>}
         </div>
@@ -76,6 +91,7 @@ return (
             name='message'
             value={formData.message}
             onChange={handleChange}
+            onBlur={ handleBlur }
             />
             {errors.message && <span>{errors.message}</span>}
         </div>
