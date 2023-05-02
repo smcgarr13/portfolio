@@ -18,13 +18,14 @@ A portfolio to showcase all of my good work!
 -[Questions](#questions)
 
 ## Description
-TBD
+This is a personal portfolio website to help showcase various projects and skills. The website includes an "about-me" section, a portfolio section where you can add your projects, a contact form, and links to the developer's GitHub and social media profiles.
 
 ## Installation
 N/A
 
 ## Usage
-TBD
+The portfolio website can be used to showcase your work and skills to potential employers, collaborators, or clients. Update the project data and other content to reflect your own projects and experiences.
+
 
 ## Credits
 "Sticky" Footer: https://www.youtube.com/watch?v=pggIVY5eOGM
