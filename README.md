@@ -18,7 +18,7 @@ A portfolio to showcase all of my good work!
 -[Questions](#questions)
 
 ## Description
-This is a personal portfolio website to help showcase various projects and skills. The website includes an "about-me" section, a portfolio section where you can add your projects, a contact form, and links to the developer's GitHub and social media profiles.
+This is a personal portfolio website to help showcase various projects and skills. The website includes an "about-me" section, a portfolio section where you can add your projects, a contact form, and links to your GitHub and social media profiles.
 
 ## Installation
 N/A
