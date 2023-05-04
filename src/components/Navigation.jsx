@@ -1,12 +1,7 @@
 import React from 'react';
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
-    const location = useLocation();
-
-    const isActive = (path) => {
-        return location.pathname === path;
-    };
 
     return (
         <nav>
@@ -19,8 +14,8 @@ const Navigation = () => {
                 </li>
                 <li>
                     <NavLink to='/resume' className='nav-link'>resume</NavLink>
-                    </li>
-                    <li>
+                </li>
+                <li>
                     <NavLink to='/Contact' className='nav-link'>contact</NavLink>
                 </li>
             </ul>

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 
+// Define the ContactForm component
 const ContactForm = () => {
+    // Create state variables for form data and errors
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -9,11 +11,13 @@ const ContactForm = () => {
 
     const [errors,setErrors] = useState({});
 
+// Handle changes in the form inputs
 const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
 };
 
+// Handle validation on input blur event
 const handleBlur = (e) => {
     const { name } = e.target;
     const validationErrors = { ...errors };
@@ -27,11 +31,13 @@ const handleBlur = (e) => {
     setErrors(validationErrors);
 };
 
-    const validateEmail = (email) => {
-        const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+// Validate email format
+const validateEmail = (email) => {
+    const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return re.test(String(email).toLowerCase());
-    };
+};
 
+    // Handle form submission
     const handleSubmit = (e) => {
         e.preventDefault();
 
@@ -52,12 +58,14 @@ const handleBlur = (e) => {
 
         setErrors(validationErrors);
 
+        // Check if there are no validation errors before submitting the form
         if (Object.keys(validationErrors).length === 0) {
             // Submit the form
             console.log('Form submitted successfully')
         }
 };
 
+// Render the form
 return (
     <form onSubmit={ handleSubmit }>
         <div>

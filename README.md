@@ -29,6 +29,7 @@ The portfolio website can be used to showcase your work and skills to potential 
 
 ## Credits
 "Sticky" Footer: https://www.youtube.com/watch?v=pggIVY5eOGM
+Contact Form References: https://www.agirl.codes/complete-guide-build-react-forms-with-usestate-hook; https://www.telerik.com/blogs/how-to-create-validate-react-form-hooks; https://www.freecodecamp.org/news/how-to-create-forms-in-react-using-react-hook-form/;
 
 ## Technologies
 - JavaScript
