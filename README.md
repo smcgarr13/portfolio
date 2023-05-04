@@ -32,11 +32,8 @@ The portfolio website can be used to showcase your work and skills to potential 
 Contact Form References: https://www.agirl.codes/complete-guide-build-react-forms-with-usestate-hook; https://www.telerik.com/blogs/how-to-create-validate-react-form-hooks; https://www.freecodecamp.org/news/how-to-create-forms-in-react-using-react-hook-form/;
 
 ## Technologies
-- JavaScript
-– [Express](https://expressjs.com/)
-- [Node.js](https://nodejs.org/en/)
-- [Nodemon](https://www.npmjs.com/package/nodemon)
 - [React](https://www.npmjs.com/package/react)
+- [react-dom](https://www.npmjs.com/package/react-dom)
 
 ## License
 MIT
