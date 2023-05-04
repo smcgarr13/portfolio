@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Project = ({ title, description, href, imgSrc, altText, repo }) => {
-    console.log('Project props:', { title, description, href, imgSrc, altText });
+    console.log('Project props:', { title, description, href, imgSrc, altText, repo });
     return (
         <div className='flexbox-item'>
             <a href={ href }>
