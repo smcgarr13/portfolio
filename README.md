@@ -33,7 +33,7 @@ Contact Form References: https://www.agirl.codes/complete-guide-build-react-form
 
 ## Technologies
 - [React](https://www.npmjs.com/package/react)
-- [react-dom](https://www.npmjs.com/package/react-dom)
+- [React-dom](https://www.npmjs.com/package/react-dom)
 
 ## License
 MIT
