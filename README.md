@@ -55,5 +55,5 @@ Email: unicorn@magical.com
 ## Link to Deployed Application:
 https://smcgarr13.github.io/smcgarr-portfolio/
 
-## GitHub Repo:
-https://github.com/smcgarr13/smcgarr-portfolio
+## Reference Image:
+![Ticket_System](../smcgarr-portfolio/src/assets/Ticket_System.png)
