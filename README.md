@@ -56,4 +56,4 @@ Email: unicorn@magical.com
 https://smcgarr13.github.io/smcgarr-portfolio/
 
 ## Reference Image:
-![Ticket_System](https://github.com/smcgarr13/smcgarr-portfolio/blob/main/src/assets/Reference_Image.png)
+![smcgarr-portfolio](https://github.com/smcgarr13/smcgarr-portfolio/blob/main/src/assets/Reference_Image.png)
