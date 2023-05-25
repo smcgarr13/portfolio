@@ -5,8 +5,17 @@ import WeatherDashboardImage from '../assets/Weather_Dashboard.png';
 import WorkdaySchedulerImage from '../assets/Workday_Scheduler.png';
 import NoteTakerImage from '../assets/Note_Taker.png';
 import TextEditorImage from '../assets/Text_Editor.png';
+import TicketSystemImage from '../assets/Ticket_System.png';
 
 const projects = [
+    {
+        title: "Ticket-System",
+        description: "MERN Stack",
+        href: "https://ticket-system.herokuapp.com/",
+        imgSrc: TicketSystemImage,
+        altText: "Ticket System screenshot",
+        repo: "https://github.com/smcgarr13/Ticket-System"
+    },
     {
         title: "JoyRide",
         description: "Route Planner",
